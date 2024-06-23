@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+
+# production build
+/build
+
+# development server
+/.cache
+
+# dotenv environment variables file
+.env
+
+# IDE files
+*.idea
+*.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Jest coverage
+coverage/
