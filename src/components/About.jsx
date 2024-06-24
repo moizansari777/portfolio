@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Ruby on Rails and JavaScript, and I have expertise in frameworks like React. I also work with libraries like jQuery and tools like Stimulus (Hotwire). I can create single-page applications using Ruby on Rails, providing efficient, scalable, and user-friendly solutions. I'm a quick learner and enjoy collaborating closely with clients to tackle real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software developer with experience in Ruby on Rails and JavaScript, and I have expertise in deployment. I also work with libraries like jQuery and tools like Stimulus (Hotwire). I can create single-page applications using Ruby on Rails, providing efficient, scalable, and user-friendly solutions. I'm a quick learner and enjoy collaborating closely with clients to tackle real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

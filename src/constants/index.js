@@ -23,6 +23,9 @@ import {
   postgresql,
   sql,
   bootstrap,
+  equirole,
+  smacc,
+  thewalt
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +45,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Ruby on Rails Developer",
+    title: "Ruby on Rails",
     icon: rails,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Postgresql",
+    icon: postgresql,
   },
   {
-    title: "React Developer",
-    icon: react,
+    title: "JavaScript Developer",
+    icon: javascript,
   },
   {
     title: "API | Backend Developer",
-    icon: api,
+    icon: git,
   },
 ];
 
@@ -113,11 +116,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Ruby on Rails Developer",
-    company_name: "Codility Solution",
+    title: "Software Engineer",
+    company_name: "Tecaudex",
+    icon: tecaudex,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Present",
+    points: [
+      "Leading the development and deployment of scalable web applications using React.js and Ruby on Rails.",
+      "Transforming complex Figma designs into functional, responsive web pages from scratch.",
+      "Deployming web applications on AWS and heroku with capistrano.",
+      "Developing RESTful APIs and ensuring seamless integration with front-end components.",
+      "Automating deployment processes and managing continuous integration/continuous deployment (CI/CD) pipelines.",
+      "Mentoring junior developers and conducting knowledge-sharing sessions on best practices on Ruby on Rails.",
+    ],
+  },
+  {
+    title: "Associate Software Engineer",
+    company_name: "Agilekode",
     icon: codility,
     iconBg: "#383E56",
-    date: "Apr 2022 - Aug 2023",
+    date: "Aug 2022 - Oct 2023",
     points: [
       "Developing and maintaining web applications using Ruby on Rails and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -125,21 +143,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Building and integrating RESTful APIs to enhance application functionality.",
       "Optimizing application performance and ensuring scalability of the web applications.",
-    ],
-  },
-  {
-    title: "React and Ruby on Rails Developer",
-    company_name: "Tecaudex",
-    icon: tecaudex,
-    iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
-    points: [
-      "Leading the development and deployment of scalable web applications using React.js and Ruby on Rails.",
-      "Transforming complex Figma designs into functional, responsive web pages from scratch.",
-      "Implementing advanced state management solutions and optimizing component performance in React.js.",
-      "Developing RESTful APIs and ensuring seamless integration with front-end components.",
-      "Automating deployment processes and managing continuous integration/continuous deployment (CI/CD) pipelines.",
-      "Mentoring junior developers and conducting knowledge-sharing sessions on best practices in React and Ruby on Rails.",
     ],
   }
 ];
@@ -172,6 +175,68 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TheWAlt.io",
+    description:
+      "Build a project that does compare resumes with job description and had quantified success using rails. This project’s involves AI with the backend to measure the success job compared matched results.",
+    tags: [
+      {
+        name: "Ruby On Rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thewalt,
+    source_code_link: "https://www.thewalt.io/",
+  },
+  {
+    name: "SMACC-7",
+    description:
+      "Revolutionize retail efficiency with our Rails-based POS system, boosting sales by 30% and reducing checkout times by 50%.our POS ensures seamless transactions, inventory management, and customer satisfaction.",
+    tags: [
+      {
+        name: "Ruby On Rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Turbo (stimulus)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smacc,
+    source_code_link: "https://www.smacc.com/en/",
+  },{
+    name: "Equirole",
+    description:
+      "Built a tool to search for Hiring Managers and Recruiters by using Rails, Postgres, Firebase and boolean queries. Over 25000 people have used it so far, with 5000+ queries being saved and shared, and search results",
+    tags: [
+      {
+        name: "Ruby On Rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: equirole,
+    source_code_link: "https://equirole.com/",
+  },
   {
     name: "ViewExchange",
     description:

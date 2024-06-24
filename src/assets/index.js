@@ -33,6 +33,9 @@ import react from "./react.png";
 import api from "./api.png";
 import codility from "./company/codility.jpeg";
 import tecaudex from "./company/tecaudex.png";
+import thewalt from "./thewalt.png";
+import equirole from "./equirole.png";
+import smacc from "./smacc.png";
 
 export {
   logo,
@@ -67,4 +70,7 @@ export {
   sql,
   postgresql,
   viewexchange,
+  thewalt,
+  equirole,
+  smacc
 };
