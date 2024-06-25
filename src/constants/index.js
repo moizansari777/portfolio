@@ -206,7 +206,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "HotWire",
+        name: "Turbo (stimulus)",
         color: "green-text-gradient",
       },
       {
@@ -236,6 +236,27 @@ const projects = [
     ],
     image: equirole,
     source_code_link: "https://equirole.com/",
+  },
+  {
+    name: "AnswerThePublic",
+    description:
+      "A platform designed for SEO purposes, allowing users to search for keywords and access data such as CPC and other relevant metrics. The platform supports keyword searches for various platforms including TikTok, Google, Bing, and Amazon.",
+    tags: [
+      {
+        name: "Ruby On Rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stimulus",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Action Cable",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: atp,
+    source_code_link: "https://answerthepublic.com/",
   }
 ];
 
